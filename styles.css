@@ -155,7 +155,7 @@
 }
 
 /* tablet layout starts here */
-@media screen and (min-width: 376px){
+@media screen and (min-width: 426px){
 .first-third{
     position: relative;
     flex-direction: row;
