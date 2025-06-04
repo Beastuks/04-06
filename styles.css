@@ -112,7 +112,7 @@
                 .second-third p {
                     font-weight: 100;
                     line-height: 1.5;
-                    color: gray;
+                    color: darkgrey;
                     margin-top: 2rem;
                     font-size: 1.5rem;
                 }
@@ -201,11 +201,18 @@ z-index: 1;
         "c c c d d"
         "c c c e e";
     }
+    .second-third h1{
+    font-size: 2.5rem;
+    line-height: 1;
+    
+}
+.second-third p{
+    font-size: 1.2rem;
+}
     .first-elm{
         grid-area: a;
-        
-
-    }
+        padding: 2rem 4rem 2rem 0rem;
+}
       .second-elm{
         grid-area: b;
     }
@@ -231,6 +238,7 @@ z-index: 1;
     height: 100%;
     box-sizing: border-box;
 }
+
 .highlight-lower{
 padding: 4rem 2rem;
 }
