@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+
+}
+                .color-split-link {
+                    position: absolute;
+                    display: none;
+                    grid-template-columns: 1fr 3fr;
+                    width: 70%;
+                    font-size: 1rem;
+                    align-self: start;
+                    text-align: center;
+                    border: none;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    top:0;
+                    right: 0;
+                }
+
+                .left-side {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: rgb(21, 20, 20);                    
+                    padding: 1rem;
+                }
+
+                .right-side {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #f7965e;
+                    color: black;
+                }
+
+iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: rgb(21, 20, 20);
+    padding: 3rem 2rem;
+    gap: 2rem;
+
+}
+
+.contacts h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: #DFDEDF;
+}
+
+.contacts h3 {
+    font-size: 2rem;
+    color: #D7986B;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.contacts-info p, ul {
+color: #DFDEDF;
+    font-weight: 100;
+    line-height: 1.5rem;
+}
+                footer{
+                    width: 100%;
+                        background: #D7986B;
+                     display: grid;
+                    grid-template-columns: 1fr;
+                    justify-content: center;
+                    align-items: start;
+                    color: rgb(21, 20, 20);
+                    padding: 2rem;
+                    gap: 2rem;
+
+                }
+                footer > h1{
+                    letter-spacing: 0px;
+                    text-transform: uppercase;
+                    width: 70%;
+                    line-height: 1;
+                    font-weight: 800;
+                }
+                footer > h2{
+                    font-weight: 100;
+                }
+                footer ul{
+                    display: flex;
+                    gap: 1.5rem;
+                }
+.socials{
+    color: rgb(21, 20, 20);
+    font-size: 2rem;
+}
+

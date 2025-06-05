@@ -62,7 +62,7 @@
 
                 .color-split-link {
                     display: grid;
-                    grid-template-columns: 2fr 1fr;
+                    grid-template-columns: 1fr 1fr;
                     width: 80%;
                     font-size: 1rem;
                     color: white;
